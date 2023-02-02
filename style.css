@@ -1,0 +1,91 @@
+a {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+}
+
+a:hover{
+    font-size: 25px;
+}
+
+.posicion {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header {
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.imgPrincipal {
+    margin-top: 15px;
+    width: 250px;
+    height: auto;
+    border-radius: 70%;
+    animation: girar 1.5s ease-in forwards;
+}
+
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.fondo {
+    background-color: orangered;
+    padding: 60px;
+}
+
+.redondeado {
+    border: 2px solid black;
+    border-radius: 20px;
+    max-height: 200px;
+}
+
+.central {
+    height: 200px;
+}
+
+.aboutMe {
+    padding: 60px;
+}
+
+.footer {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.dir {
+    font-weight: bold;
+    text-align: center;
+}
+
+.icono {
+    margin: 30px;
+}
+
+.copy {
+    background-color: darkblue;
+    color: white;
+}
+
+@keyframes girar {
+    0%{
+        transform: rotate(0);
+    }
+    30%{
+        transform: rotate(1turn);
+    }
+    60%{
+        transform: rotate(1turn);
+    }
+}
